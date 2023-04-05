@@ -19,12 +19,12 @@ class Chronometer {
     return Math.floor(this.currentTime / 60);
   }
 
-  // amber code
-  getMinutes() {
-    let count = this.currentTime / 60
-    let minuteCount = Math.floor(count);
-    return minuteCount
-  }
+  // // amber code
+  // getMinutes() {
+  //   let count = this.currentTime / 60
+  //   let minuteCount = Math.floor(count);
+  //   return minuteCount
+  // }
 
   getSeconds() {
     return this.currentTime % 60;
